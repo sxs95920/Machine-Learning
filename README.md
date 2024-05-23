@@ -10,8 +10,8 @@ Machine Learning Assignment 1 is done completely using Jupyter Notebook. This As
 
 Document
 Document Describing about Assignment 1
-[Document] (https://drive.google.com/file/d/1UpU6NiBfaya1yWn5_p0vAoMDloOnIxkV/view?usp=sharing)
+[Document](https://drive.google.com/file/d/1UpU6NiBfaya1yWn5_p0vAoMDloOnIxkV/view?usp=sharing)
 
 Video
 Video on demonstration of the Assignment 1
-[Video] (https://drive.google.com/file/d/1atc-0B7cgy5ZmKtH2BzMeMMf6xOlYske/view?usp=drive_link)
+[Video](https://drive.google.com/file/d/1atc-0B7cgy5ZmKtH2BzMeMMf6xOlYske/view?usp=drive_link)
