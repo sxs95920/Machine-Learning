@@ -1,0 +1,50 @@
+QUESTION 1 Use a python code to display the following star pattern using the for loop
+
+
+for i in range(1, 6):
+    for j in range(i): # inner loop runs from 0 to i, where i is the current iteration of the outer loop
+        print("*",end="")
+    print("")
+for i in range(4, 0, -1): # loop starts from 4 and goes till 0 with a step of -1, thus it prints the reverse pattern.
+    for j in range(i):
+        print("*",end="")
+    print("")
+
+
+QUESTION 2. Use looping to output the elements from a provided list present at odd indexes.
+
+my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+# start from index 1 with 2 steps in between
+for i in my_list[1::2]:
+    print(i, end=" ")
+
+QUESTION 3 Write a code that appends the type of elements from a given list.
+Input
+
+x = [23, 'Python', 23.98]
+types = [] # creating an empty list
+for i in x:
+    types.append(type(i)) # using type function
+print(x)
+print(types)
+
+QUESTION 4 Write a function that takes a list and returns a new list with unique items of the first list. 
+
+def sample_list(l):
+  x = [] # creating an empty list
+  for a in l:
+    if a not in x:
+      x.append(a)  # using append function
+  return x
+print("Unique List:", sample_list([1,2,3,3,3,3,4,5]))
+
+
+QUESTION 5 Write a function that accepts a string and calculate the number of upper-case letters and lower-case letters.
+Input String: 'The quick Brow Fox' 
+
+def string(s): # using function
+    u = sum(1 for i in s if i.isupper()) # using is upper function and finding total upper letters
+    l = sum(1 for i in s if i.islower()) # using is lower function and finding total lower letters
+    print("No. of Upper case characters:", u)
+    print("No. of lower case characters:", l)
+string('The quick Brow Fox')
